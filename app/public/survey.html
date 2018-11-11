@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script> 
+  <!-- //ajax -->
+</head>
+
+<body>
+
+    <div class = "container">
+        <h2>Survey Questions</h2>
+        <hr>
+
+        <form>
+            <h3>About You</h3>
+            <div class="form-group">
+                <label for="nameInput">Name(Required)</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Enter your Name Here">
+            </div>
+
+            <div class="form-group">
+              <label for="photoLink">Link to Photo Image (optional)</label>
+              <input type="text" class="form-control" id="photoLink" placeholder="">
+            </div>
+
+            <div class="form-group">
+                <h3>Question 1</h3>
+                <label for="question1">The lack of money is the root of all evil.</label>
+                <select class="form-control" id="question1" style = "width: 250px"> 
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree) </option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h3>Question 2</h3>
+                <label for="question2">It is lovely, when I forget all birthdays, including my own, to find that somebody remembers me.</label>
+                <select class="form-control" id="question2" style = "width: 250px">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h3>Question 3</h3>
+                <label for="question3">Wish not so much to live long as to live well.</label>
+                <select class="form-control" id="question3" style = "width: 250px">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h3>Question 4</h3>
+                <label for="question4">Cats Rule, Dogs Drool.</label>
+                <select class="form-control" id="question4" style = "width: 250px">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h3>Question 5</h3>
+                <label for="question5">You consider yourself to be an introvert but would like to be an extrovert.</label>
+                <select class="form-control" id="question5" style = "width: 250px">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h3>Question 6</h3>
+                <label for="question6">You have a thrifty budget when socializing.</label>
+                <select class="form-control" id="question6" style = "width: 250px">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h3>Question 7</h3>
+                <label for="question7">To get the full value of joy you must have someone to divide it with.</label>
+                <select class="form-control" id="question7" style = "width: 250px">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h3>Question 8</h3>
+                <label for="question8">Sometimes too much to drink is barely enough.</label>
+                <select class="form-control" id="question8" style = "width: 250px">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h3>Question 9</h3>
+                <label for="question9">An apple a day keeps the doctor away.</label>
+                <select class="form-control" id="question9" style = "width: 250px">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h3>Question 10</h3>
+              <label for="question10">The grass is greener on the other side.</label>
+              <select class="form-control" id="question10" style = "width: 250px">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+          </form>
+
+          <button id = "submit-btn" type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Submit</button>
+          <a href="/"><button id = "home-btn" type="submit" class="btn btn-danger">Home</button></a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h4 class="modal-title" style ="text-align: left">Survey Says....</h4>
+                    </div>
+                    <div class = "modal-body"></div>
+                    <div id = "modal-image"></div>
+                    <div class = "modal-footer">
+                    <button type = "button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+
+    </div>
+
+    <script type="text/javascript"> 
+
+
+        $("#submit-btn").on("click", function(event) {
+            // function for adding two numbers.
+            const add = (a, b) =>
+            a + b
+            // use reduce to sum our array
+            //const sum = numbers.reduce(add) // sample for adding array.
+
+            event.preventDefault();
+            var scoresArray = [];
+            var scoreItem;
+            var newUserSum;
+
+            if($("#nameInput").val() != "") {
+                for (var i = 1 ; i <= 10; i++) {
+                scoreItem = $("#question"+ i).val(); // grabs the value from question[i]
+                var intScoreItem= (scoreItem.slice(0,1));
+                //scoresArray.push(scoreItem.slice(0,1)); // pushes the individual score to array, returns only the first character in the string.
+                scoresArray.push(parseInt(intScoreItem));
+            }
+            
+            var newFriend = {
+                name: $("#nameInput").val(), // user inputted name
+                photo: $("#photoLink").val(), // user inputted photo link
+                scores: scoresArray // array of the 10 questions.
+            }     
+         
+          $.post("/api/friends", newFriend, function(data) { //changed req, res to data
+   
+
+            if (data) { // return data of friends
+                //alert("You've been added to the list!")
+                $(".modal-body").html($("#nameInput").val() +" has been added to the database. <br>")  // appended info to the modal.
+                $(".modal-body").append("<br> Your New Best Friends: <br>");
+                console.log($("#nameInput").val() + " has been added.")
+
+            }else {
+                //alert("Error! Something went wrong please contact the dev.")
+                console.log("Error!")
+            }
+
+            $.get("/api/friends", function(req, res){
+            tempFriendsArray = req;
+            console.log("Newest Added member: " + newFriend.name);
+            console.log("Newest Added member Score: " + newFriend.scores);
+
+            newUserSum = newFriend.scores.reduce(add) // newFriend Sum
+            console.log(newUserSum)
+
+            for (var j = 0; j < tempFriendsArray.length -1 ; j++){ // -1 from array.length to exclude the newest added user, this for loop is to cycle through the friends array
+                var comparisonArray=[];
+                var comparison;
+                var differenceArray=[];
+                var difference;
+                var sum;
+                var counter = 0;
+
+                for (var k = 0 ; k < tempFriendsArray[j].scores.length;k++){ // this for loop is to cycle through the scores of the targeted friend.
+
+                    //option 
+                    difference = newFriend.scores[k] - tempFriendsArray[j].scores[k];
+                    difference = Math.abs(difference);
+                    differenceArray.push(difference);  
+                    
+                    //Sum
+                    sum = differenceArray.reduce(add) // this value is the sum of the individual in the database's score.
+                }
+
+            // if SUM value of 0 is the max, sum value is 20 is the middle, sum value of 40 is the min.
+            // max value is 100% match, mid value is 50/50 match, min value is 0% match.
+
+                    if (sum <=20 && tempFriendsArray[j].name != newFriend.name) {
+                        counter +=1; // size of 
+
+                        // if condition to catch zero matches
+                        if (counter === 0) {
+                            console.log("No matches");
+                            $(".modal-body").append("Sorry, no matches found!");
+
+                        }else{
+
+                            console.log("Name: " + tempFriendsArray[j].name);
+                            // variable to store match friend name
+                            console.log("Photo: " + tempFriendsArray[j].photo);
+                            // variable to store match friend pic
+                            console.log("Score: " + tempFriendsArray[j].scores);
+                            // variable to store match friend score
+                            //console.log("Comparison Array: " + comparisonArray);
+                            console.log("Difference Array: " + differenceArray);
+                            console.log("Sum value: " + sum);
+                            
+                            $(".modal-body").append("<br>" + tempFriendsArray[j].name +"<br>");
+                            var imgsrc = tempFriendsArray[j].photo;
+                            $("#modal-image").attr("src", imgsrc) // append modal image
+                            //$("#modal-image").attr("src", tempFriendsArray[j].photo) // append modal image
+                        }
+                    }
+            }
+            });
+
+            //Clear the form when submitting(reset for next user)
+            $("#nameInput").val("");
+            $("#photoLink").val("");
+            for (var i = 1 ; i <= 10; i++) {
+                $("#question" + i).val("1 (Strongly Disagree)") // resets the dropdowns to no option selected
+            }
+          });
+                
+            }else if ($("#nameInput").val() === "") {
+                $(".modal-body").html("Error! Name cannot be blank.")    // error message for the modal.
+        }
+        });
+
+      </script>
+
+</body>
+</html>
