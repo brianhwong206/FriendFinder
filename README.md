@@ -17,5 +17,5 @@ Who maintains and contributes to the project?
 Brian Wong, https://github.com/brianhwong206
 
 Areas needing attention:
-Currently the code as it is, is unable to present the photos of the matching friends. It is able to return the string values of matching individuals however the BootStrap Modal is unable to return the image in its current form. Moving forward, additional assistance of returning values ot be presented 
+Currently the code as it is, is unable to present the photos of the matching friends. It is able to return the string values of matching individuals however the BootStrap Modal is unable to return the image in its current form. Moving forward, additional assistance of returning values to be presented 
 
